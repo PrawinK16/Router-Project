@@ -1,5 +1,3 @@
-`timescale 1ns / 1ps
-
 module router_fifo(clock,resetn,write_enb,soft_reset,read_enb,data_in,lfd_state,empty,data_out,full);
   input clock;
   input resetn;
